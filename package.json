@@ -1,0 +1,17 @@
+{
+  "name": "widgeter",
+  "version": "0.0.1",
+  "description": "A Widget Minifier",
+  "author": "Darrin Henein",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compress": "~0.14.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-uglify": "~0.10.0",
+    "grunt-data-uri": "^0.2.0",
+    "grunt-string-to-js": "0.0.3",
+    "grunt-template-render": "0.0.1",
+    "lodash": "^3.10.1"
+  }
+}

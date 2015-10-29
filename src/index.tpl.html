@@ -1,0 +1,13 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div id="widget">
+
+  <span class="logo">
+    <h1><%= data.title %></h1>
+  </span>
+
+  <% _.forEach(data.links, function(link){ %>
+    <a href="<%- link.url %>"><%- link.name %></a>
+  <% }); %>
+
+</div>
