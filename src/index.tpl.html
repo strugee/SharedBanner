@@ -2,12 +2,12 @@
 
 <div id="widget">
 
-  <span class="logo">
+  <a href="//firefoxux.github.io/" class="logo">
     <h1><%= data.title %></h1>
-  </span>
+  </a>
 
   <% _.forEach(data.links, function(link){ %>
-    <a href="<%- link.url %>"><%- link.name %></a>
+    <a href="<%- link.url %>" class="link"><%- link.name %></a>
   <% }); %>
 
 </div>
