@@ -24,6 +24,7 @@ body {
   color: #79818A;
   border-bottom: 1px solid #DADADA;
   box-shadow: 0 3px 0 rgba(0,0,0,0.02);
+  z-index: 99;
 }
 
 #widget a {
