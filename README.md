@@ -1,4 +1,4 @@
-# SharedBanner
+# SharedBanner  [![Build Status](https://travis-ci.org/FirefoxUX/SharedBanner.svg?branch=master)](https://travis-ci.org/FirefoxUX/SharedBanner)
 
 ##Installation
 
