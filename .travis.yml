@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '5.5.0'
+script: 'bash ./deploy.sh'
+env:
+  global:
+    - GH_REF='github.com/FirefoxUX/SharedBanner.git'
+    - secure='g1PHJx4xgMcA9V+GmO/1k/Tweu/onGu4bTdwZKFY4KqNZiVBAmWOljbyqAMfTmyJK1HrrKuJF2unVqZDUlO4T0n604fh4usGvTzhFAHk98q7eGoVjFk6hFDpbzY6p0xJQuoJcQObnBLJz4el9WZDuKRONWFpk1t4ZYrU7bQCMRFb2cXTde8y1I05k32JZb29Yj0NPMBIBoprGvSryZRw/NC+V7YGTIqmjYS1xSM5S3w1xBZJhYk8c55n6dlKF3XhRSOcc2jfV5tHypva8rx+ScYq/uU3BYOafSc79Q0bV4bSPw/dWWzaT7O+SMSJ9pQ+L6LhdHvb8H6pYCIhA9CgyyFjJ/9dxU7Aqh9X0eRVLKIsmA95/YCJNCXAdwRF7Nw/ZaRL/YNhd1NvaYf85GVuKwHKoUKmytcxjv9UDCn7jtFMIRKx2mt3aH4BCc76401Eu51dfBYjQ3D+MPmXzEKqh66bKdU45DCMNov+uagxjpXsYp0TSa2YDEocyPtvKt9suaajs5ldrMD1R6sMcXlI73GRTkGtKp9tcfX8M/Lzop5T7j7gITx20x+oWHJ+GUJSEkoq9EJXJOSsQ8kjll/S/23UW7Y+uoh7sSWi0tMqoACnXDgtbEVdABpmpPEruzb535BUrBJVw0C8O0MZhIzcddUpEOiH+UIglkgAEEN2o4s='
