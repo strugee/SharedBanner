@@ -15,4 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   head.appendChild(style);
+
+  var l = document.createElement('link'); l.rel = 'stylesheet';
+  l.href = 'https://code.cdn.mozilla.net/fonts/fira.css';
+  var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
 });
